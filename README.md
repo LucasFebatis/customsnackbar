@@ -15,7 +15,9 @@ The purpose of this customization, is to provide more control under the Snackbar
 
 Focused for use on tablets
 
-![alt text][./images/tablet.gif]
+![Tablet Gif](./images/tablet.gif)
+
+![Phone Gif](./images/phone.gif)
 
 The main part of the code is this:
 
