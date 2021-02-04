@@ -20,6 +20,7 @@
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
             android:gravity="center"
+            android:minWidth="340dp"
             android:orientation="horizontal"
             android:padding="20dp">
 
@@ -35,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:text="Insumo recusado com sucesso!"
+                android:text="Hello Snackbar"
                 android:textColor="@android:color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />

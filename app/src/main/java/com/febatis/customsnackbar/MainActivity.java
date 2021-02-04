@@ -31,10 +31,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void showSnackbar() {
 
+        String text = "Hello Snackbar!!!";
+
         LayoutInflater mInflater = LayoutInflater.from(this);
 
         View rootView = findViewById(android.R.id.content);
-        Snackbar snackBar = Snackbar.make(rootView, "Olá Mundo", Snackbar.LENGTH_LONG);
+        Snackbar snackBar = Snackbar.make(rootView, text, Snackbar.LENGTH_LONG);
 
         // Get the Snackbar's layout view
         Snackbar.SnackbarLayout layout = (Snackbar.SnackbarLayout) snackBar.getView();
@@ -56,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
 
         // Inflate our custom view
         View snackView = mInflater.inflate(R.layout.my_snackbar, null);
+
+        TextView newTextView = snackView.findViewById(R.id.text);
+        newTextView.setText(text);
+
         layout.addView(snackView);
 
         snackBar.show();
