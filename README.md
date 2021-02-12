@@ -1,6 +1,8 @@
 # Custom Snackbar
 Snackbar with custom attributes
 
+done for solving the Stackoverflow question: https://stackoverflow.com/questions/31492351/how-can-you-adjust-android-snackbar-to-a-specific-position-on-screen
+
 Using the library [material.io](https://material.io)
 
     implementation 'com.google.android.material:material:1.3.0'
